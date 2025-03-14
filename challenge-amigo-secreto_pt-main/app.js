@@ -26,13 +26,6 @@ function atualizarLista() {
     amigos.forEach((amigo, index) => {
         const li = document.createElement("li");
         li.textContent = amigo;
-        
-        const botaoRemover = document.createElement("button");
-        botaoRemover.textContent = "X";
-        botaoRemover.classList.add("remove-button");
-        botaoRemover.onclick = () => removerAmigo(index);
-
-        li.appendChild(botaoRemover);
         lista.appendChild(li);
     });
 }
