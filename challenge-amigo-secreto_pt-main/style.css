@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
+    --color-primary: #636385;
+    --color-secondary: #444444;
+    --color-tertiary: #3c3c3c;
+    --color-button: #7c6563;
     --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-text: #9494a0;
+    --color-white: #e9e4e3;
 }
 
 /* Estilos gerais */
